@@ -213,11 +213,11 @@ struct LoginView: View {
 //            return
 //        }
         
-        let appid = Bundle.main.apiKey
+     //   let appid = Bundle.main.apiKey
         
       
         
-        guard let url1 = URL(string: "http://59.10.47.222:3000/checkversion?apikey=\(appid)") else {
+        guard let url1 = URL(string: "http://59.10.47.222:3000/checkversion?apikey=WCE2HG6-CKQ4JPE-J39AY8B-VTJCQ10") else {
             print("Invalid URL")
             return
         }
